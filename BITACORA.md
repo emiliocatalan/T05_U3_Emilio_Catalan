@@ -1,0 +1,6 @@
+# Bitácora
+
+| Fecha | Predicción / decisión | Cambio | Prueba y evidencia | Commit |
+|---|---|---|---|---|
+| 05-11-2026 | Al aumentar la malla de 2 a 4 y 8 elementos, se espera que u(L) cambie cada vez menos y que el error entre nodos disminuya. Si además se impone u(L)=0, cambiará el problema de borde y aparecerá una reacción en ese extremo. | Sin cambios todavía; corresponde a la predicción previa a ejecutar. | Predicción registrada antes de ejecutar los casos n=2, 4 y 8. | Pendiente |
+| 05-11-2026 | La predicción se confirmó: u(L) se mantuvo prácticamente en 0,300 mm para n=2, 4 y 8, mientras que el error en puntos medios disminuyó al refinar la malla. | Se completaron las funciones de referencia analítica y error en puntos medios y se ejecutaron las tres mallas más el caso de contorno alterado. | El error máximo disminuyó de 0,00625 mm a 0,0015625 mm y luego a 0,000390625 mm. En BC_ALTERADO se obtuvo u(L)=0 y aparecieron reacciones en ambos extremos, manteniéndose el equilibrio global. | Pendiente |
